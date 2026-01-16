@@ -167,11 +167,11 @@ export default function Home() {
       handle: "@+91 9142446851",
       url: "https://wa.me/+919142446851",
     },
-    // {
-    //   name: "LinkedIn",
-    //   handle: "@abhoy-sarkar",
-    //   url: "https://www.linkedin.com/in/abhoy-sarkar/",
-    // },
+    {
+      name: "LinkedIn",
+      handle: "shiven-chandra",
+      url: "https://www.linkedin.com/in/shiven-chandra/"
+    },
   ];
 
   return (

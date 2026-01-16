@@ -8,12 +8,7 @@ export default function AboutPage() {
     { name: "GitHub", handle: "@shivenchandra", url: "https://github.com/shivenchandra" },
     { name: "X", handle: "@shivenchandra", url: "https://x.com/shivenchandra" },
     { name: "WhatsApp", handle: "+91 9142446851", url: "https://wa.me/+919142446851" },
-    { name: "LinkedIn", handle: "@shiven-chandra", url: "https://www.linkedin.com/in/shiven-chandra/" },
-    // {
-    //   name: "LinkedIn",
-    //   handle: "abhoy-sarkar",
-    //   url: "https://www.linkedin.com/in/abhoy-sarkar/",
-    // },
+    { name: "LinkedIn", handle: "shiven-chandra", url: "https://www.linkedin.com/in/shiven-chandra/" },
   ];
 
   return (
@@ -152,7 +147,7 @@ export default function AboutPage() {
             are well-instrumented, testable, and easy to maintain.
           </p>
 
-          <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm">
+          <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
             <div className="p-4 bg-accent/45 backdrop-blur border border-border rounded-lg">
               Startup teams
             </div>
