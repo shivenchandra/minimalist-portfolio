@@ -34,7 +34,7 @@ export default function ProjectsPage() {
               </h1>
               <p className="text-lg text-muted-foreground max-w-2xl">
                 A curated selection of projects that showcase my expertise in
-                full-stack development, design systems, and devops.
+                full-stack development.
               </p>
             </div>
 

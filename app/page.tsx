@@ -44,26 +44,42 @@ export default function Home() {
   // ];
 
   const projects = [
-     {
+
+    {
+      name: "Battlefield 6 - Redesigned UI",
+      description:
+        "I built Battlefield-6, a solo frontend redesign project focused on creating a modern, high-impact web experience inspired by the previous design of Zentry.com. The project emphasizes visual storytelling, smooth animations, and clean component architecture, with performance and responsiveness across devices.",
+      tech: [
+        "React.js",
+        "Tailwind CSS",
+        "GSAP",
+        "JavaScript (ES6+)",
+        "HTML5 & CSS3",
+        "Cloudinary",
+      ],
+      link: "https://battlefield6.vercel.app",
+      year: "2026",
+      slug: "battlefield-6-redesigned-ui",
+    },
+    {
       name: "Converso - AI-Powered Learning Platform",
       description:
         "LMS SaaS app featuring user authentication, subscriptions, and payments using Next.js, Supabase, and Stripe — also integrates Vapi AI voice agent for seamless, interactive learning sessions.",
-       tech: [
-    "Next.js",
-    "Tailwind CSS",
-    "shadcn/ui",
-    "TypeScript",
-    "Vercel",
-    "Supabase",
-    "Clerk",
-    "Vapi",
-    "Sentry", 
-    "Zod" 
-  ],
+      tech: [
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "Shadcn UI",
+        "Supabase",
+        "Clerk",
+        "Vapi",
+        "Sentry",
+        "Zod"
+      ],
       link: "https://lms-saas-beta.vercel.app/",
       year: "2025",
       slug: "lms-saas-app",
-    },
+    }
     // {
     //   name: "MindSketch — Real-time Collaborative Diagramming",
     //   description:
@@ -97,7 +113,7 @@ export default function Home() {
     //   year: "2024",
     //   slug: "aipowered-content-generation-platform",
     // },
-   
+
   ];
 
   // const thoughts = [
