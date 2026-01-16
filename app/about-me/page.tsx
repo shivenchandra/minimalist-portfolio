@@ -7,11 +7,8 @@ export default function AboutPage() {
   const socials = [
     { name: "GitHub", handle: "@shivenchandra", url: "https://github.com/shivenchandra" },
     { name: "X", handle: "@shivenchandra", url: "https://x.com/shivenchandra" },
-    {
-      name: "WhatsApp",
-      handle: "+91 9142446851",
-      url: "https://wa.me/+919142446851",
-    },
+    { name: "WhatsApp", handle: "+91 9142446851", url: "https://wa.me/+919142446851" },
+    { name: "LinkedIn", handle: "@shiven-chandra", url: "https://www.linkedin.com/in/shiven-chandra/" },
     // {
     //   name: "LinkedIn",
     //   handle: "abhoy-sarkar",
