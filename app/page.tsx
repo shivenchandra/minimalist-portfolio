@@ -156,7 +156,7 @@ export default function Home() {
   // ];
 
   const socials = [
-    { name: "GitHub", handle: "@shivenchandra", url: "#" },
+    { name: "GitHub", handle: "@shivenchandra", url: "https://github.com/shivenchandra" },
     {
       name: "X (Formerly Twitter)",
       handle: "@shivenchandra",
