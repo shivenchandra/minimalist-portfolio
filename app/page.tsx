@@ -62,6 +62,24 @@ export default function Home() {
       slug: "battlefield-6-redesigned-ui",
     },
     {
+      name: "Snitch 2.0",
+      description:
+        "A full-stack, feature-rich fashion e-commerce mobile app built with React Native & Expo. Browse products, manage a cart, save to wishlist, checkout with saved addresses & payment methods, and track orders — all powered by Firebase.",
+      tech: [
+        "React Native 0.81 + Expo SDK 54",
+        "Expo Router v6",
+        "Firebase v12",
+        "React Native Reanimated v4",
+        "React Native Gesture Handler",
+        "React Navigation",
+        "TypeScript",
+        "GitHub Actions"
+      ],
+      link: "https://github.com/shivenchandra/snitch-2.0/releases/tag/v2",
+      year: "2026",
+      slug: "snitch-2.0",
+    },
+    {
       name: "Converso - AI-Powered Learning Platform",
       description:
         "LMS SaaS app featuring user authentication, subscriptions, and payments using Next.js, Supabase, and Stripe — also integrates Vapi AI voice agent for seamless, interactive learning sessions.",

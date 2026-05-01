@@ -58,6 +58,43 @@ export const projects: Project[] = [
     year: "2026",
   },
   {
+    slug: "snitch-2.0",
+    name: "Snitch 2.0",
+    description:
+      "A full-stack, feature-rich fashion e-commerce mobile app built with React Native & Expo. Browse products, manage a cart, save to wishlist, checkout with saved addresses & payment methods, and track orders — all powered by Firebase.",
+    longDescription: `
+**Project Overview**
+- Snitch 2.0 is a full-stack, feature-rich fashion e-commerce mobile application built with React Native and Expo.
+- It provides a comprehensive shopping experience from browsing products to managing a cart, saving items to a wishlist, and checking out.
+
+**Features**
+-  Home Feed	Banner carousel, category grid, featured products
+-  Search	Real-time product search with filtering
+-  Product Detail	Size & color selection, image gallery, wishlist toggle
+-  Cart	Add/remove items, quantity control, live total
+-  Wishlist	Save & manage favourite products (synced to Firebase)
+-  Orders	Full order history with status tracking & cancellation
+-  Addresses	Save multiple shipping addresses
+-  Payment Methods	Save & manage payment cards
+-  Auth	Email/password sign up & login via Firebase Auth
+- Currency	Toggle between INR (₹) and USD ($)
+- Admin Panel	Add/delete products, manage & update order statuses
+`,
+    tech: [
+      "React Native 0.81 + Expo SDK 54",
+      "Expo Router v6",
+      "Firebase v12",
+      "React Native Reanimated v4",
+      "React Native Gesture Handler",
+      "React Navigation",
+      "TypeScript",
+      "GitHub Actions"
+    ],
+    link: "https://github.com/shivenchandra/snitch-2.0/releases/tag/v2",
+    github: "https://github.com/shivenchandra/snitch-2.0",
+    year: "2026",
+  },
+  {
     slug: "lms-saas-app",
     name: "Converso - AI-Powered Learning Platform",
     description:
@@ -93,7 +130,8 @@ Converso is a modern, full-stack AI learning platform built using Next.js, Supab
     link: "https://lms-saas-beta.vercel.app/",
     github: "https://github.com/shivenchandra/lms",
     year: "2025",
-  },
+  }
+
 
   //   {
   //     slug: "mindsketch-collaborative-diagramming",
